@@ -16,8 +16,17 @@ public class Ejercicio02 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
+        int variable1 = 5;
+        int variable2 = 3;
+        int variable3 = 7;
+        int variable4 = 4;
+        
+         System.out.println("-------Solución a problema------------------");
+          double resultado = (Math.pow (variable1,2) + Math.pow (variable2,3))
+              / variable4 + variable3
+        ;
+          
+            System.out.println(resultado);
         
                 
     }
